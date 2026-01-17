@@ -18,54 +18,78 @@ export default function MobileNav() {
                     <span className="sr-only">Toggle menu</span>
                 </button>
             </SheetTrigger>
-            <SheetContent side="right" className="bg-[#111] border-l border-white/10 text-white w-[300px] sm:w-[400px]">
+            {/* 
+        Updated Styling:
+        - w-full: Full width on mobile for immersion
+        - border-none: Cleaner look
+        - pt-20: More top padding to clear close button comfortably
+      */}
+            <SheetContent side="right" className="bg-[#111] border-none text-white w-full sm:w-[400px] p-0">
 
-                {/* Accessibility Requirements */}
                 <SheetTitle className="sr-only">Mobile Navigation Menu</SheetTitle>
                 <SheetDescription className="sr-only">
                     Navigation links for mobile devices.
                 </SheetDescription>
 
-                <div className="flex flex-col gap-8 mt-12">
-                    {/* Logo in Menu */}
-                    <div className="text-xl font-medium tracking-tight">
-                        {t('Header.title')} <span>✦</span> {t('Header.subtitle')}
+                <div className="flex flex-col h-full px-6 py-8">
+                    {/* Header in Menu */}
+                    <div className="flex justify-start mb-16 pt-2">
+                        <div className="bg-white text-black px-3 py-1 rounded-full text-xs font-medium uppercase tracking-wide flex items-center gap-1 border border-white/20">
+                            {t('Header.title')} <span>✦</span> {t('Header.subtitle')}
+                        </div>
                     </div>
 
-                    <nav className="flex flex-col gap-6 text-2xl font-medium tracking-tight">
+                    <nav className="flex flex-col gap-10">
                         <Link
                             href="#overview"
                             onClick={() => setOpen(false)}
-                            className="hover:text-gray-300 transition-colors"
+                            className="group"
                         >
-                            <span className="text-sm opacity-50 block mb-1">01</span>
-                            {t('Navigation.overview')}
+                            <span className="text-xs text-gray-500 uppercase tracking-wide block mb-2">01</span>
+                            <span className="text-4xl font-medium tracking-tight group-hover:text-gray-300 transition-colors">
+                                {t('Navigation.overview')}
+                            </span>
                         </Link>
                         <Link
                             href="#services"
                             onClick={() => setOpen(false)}
-                            className="hover:text-gray-300 transition-colors"
+                            className="group"
                         >
-                            <span className="text-sm opacity-50 block mb-1">02</span>
-                            {t('Navigation.services')}
+                            <span className="text-xs text-gray-500 uppercase tracking-wide block mb-2">02</span>
+                            <span className="text-4xl font-medium tracking-tight group-hover:text-gray-300 transition-colors">
+                                {t('Navigation.services')}
+                            </span>
                         </Link>
                         <Link
                             href="#proof"
                             onClick={() => setOpen(false)}
-                            className="hover:text-gray-300 transition-colors"
+                            className="group"
                         >
-                            <span className="text-sm opacity-50 block mb-1">03</span>
-                            {t('Navigation.proof')}
+                            <span className="text-xs text-gray-500 uppercase tracking-wide block mb-2">03</span>
+                            <span className="text-4xl font-medium tracking-tight group-hover:text-gray-300 transition-colors">
+                                {t('Navigation.proof')}
+                            </span>
                         </Link>
                         <Link
                             href="/privacy"
                             onClick={() => setOpen(false)}
-                            className="hover:text-gray-300 transition-colors"
+                            className="group"
                         >
-                            <span className="text-sm opacity-50 block mb-1">04</span>
-                            {t('Navigation.privacy')}
+                            <span className="text-xs text-gray-500 uppercase tracking-wide block mb-2">04</span>
+                            <span className="text-4xl font-medium tracking-tight group-hover:text-gray-300 transition-colors">
+                                {t('Navigation.privacy')}
+                            </span>
                         </Link>
                     </nav>
+
+                    <div className="mt-auto">
+                        <Link
+                            href="#"
+                            className="text-sm font-medium uppercase tracking-wide border-b border-white pb-1 inline-block"
+                        >
+                            {t('Header.inquiries')} &rarr;
+                        </Link>
+                    </div>
                 </div>
             </SheetContent>
         </Sheet>

@@ -80,12 +80,12 @@ export default function Home() {
             <div className="">
               {/* Mobile Image placement */}
               <div className="flex items-end">
-                <div className="hidden md:block w-32 lg:w-40 aspect-[3/4] rounded-sm overflow-hidden bg-gray-200 -z-10 translate-y-2">
+                <div className="block w-24 md:w-32 lg:w-40 aspect-[3/4] rounded-sm overflow-hidden bg-gray-200 -z-10 translate-y-1 md:translate-y-2 mr-4 md:mr-0">
                   <Image
                     src="/images/hero-inset.png"
                     alt="Modern architecture"
                     fill
-                    className="object-cover opacity-0 md:opacity-100"
+                    className="object-cover opacity-100"
                   />
                 </div>
                 <span className="block text-4xl md:text-6xl lg:text-[5rem] leading-[0.9] tracking-tight font-medium text-[#111]">{t('Hero.reliable')}
