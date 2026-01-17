@@ -1,0 +1,173 @@
+{
+    "Navigation": {
+        "overview": "Overview",
+        "services": "Services",
+        "proof": "Proof",
+        "privacy": "Privacy Policy"
+    },
+    "Header": {
+        "title": "Binda",
+        "subtitle": "Systems",
+        "inquiries": "Inquiries"
+    },
+    "Hero": {
+        "reliable": "reliable online",
+        "appointmentSystems": "appointment systems",
+        "forClinics": "for modern medical clinics.",
+        "intro": "I help private clinics manage online bookings, staff schedules, and multiple locations using stable, scalable systems designed for real clinical workflows.",
+        "scroll": "(Scroll ↓)"
+    },
+    "Mission": {
+        "tagline": "Erase the average, embrace the bold.",
+        "headline": "From patient booking to staff scheduling, everything is designed to reduce admin work and avoid appointment errors.",
+        "cta": "Start your project with us today"
+    },
+    "Services": {
+        "s1_title": "Website & Booking Maintenance",
+        "s1_desc": "Ongoing maintenance and monitoring of your clinic website and booking system to ensure stability, security, and uptime.",
+        "s1_list": {
+            "item1": "WordPress maintenance",
+            "item2": "Booking plugin support",
+            "item3": "Security & backups",
+            "item4": "Minor content updates",
+            "item5": "Monitoring & fixes"
+        },
+        "s2_title": "Custom Booking Systems",
+        "s2_desc": "Custom appointment systems built for clinics that operate across multiple services, staff members, or locations.",
+        "s2_list": {
+            "item1": "Multi-location scheduling",
+            "item2": "Staff availability rules",
+            "item3": "Custom appointment logic",
+            "item4": "Admin dashboards",
+            "item5": "Payment & email automation"
+        },
+        "s3_title": "System Optimization & Scaling",
+        "s3_desc": "Improve performance, reliability, and workflows as your clinic grows.",
+        "s3_list": {
+            "item1": "Booking flow optimization",
+            "item2": "Reporting & analytics",
+            "item3": "Performance improvements",
+            "item4": "System restructuring"
+        }
+    },
+    "Proof": {
+        "label": "[ PROOF ]",
+        "text": "Currently supporting a multi-location prenatal screening clinic with online appointment booking and staff scheduling across four locations."
+    },
+    "WhyThisWorks": {
+        "label": "[ WHY THIS WORKS ]",
+        "list": {
+            "item1": "Built specifically for medical clinics",
+            "item2": "Experience with real booking workflows",
+            "item3": "Clear separation between maintenance and development",
+            "item4": "Direct communication with the developer",
+            "item5": "Cost-effective alternative to agencies"
+        }
+    },
+    "CTA": {
+        "title": "Let’s discuss your\nbooking setup.",
+        "subtitle": "30-minute call. No obligation.",
+        "button": "Schedule consultation"
+    },
+    "Privacy": {
+        "title": "Privacy Policy",
+        "lastUpdated": "Last updated: [Insert date]",
+        "backToHome": "Back to Home",
+        "intro": "Binda Systems (“we”, “our”, or “us”) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website or contact us.",
+        "sections": {
+            "1": {
+                "title": "1. Information We Collect",
+                "content": "We may collect the following information:",
+                "list": {
+                    "item1": "Name",
+                    "item2": "Email address",
+                    "item3": "Company or clinic name",
+                    "item4": "Message content submitted through contact forms",
+                    "item5": "Technical information such as browser type, device, and IP address"
+                },
+                "footer": "We do <bold>not</bold> collect or store patient medical data through this website."
+            },
+            "2": {
+                "title": "2. How We Use Your Information",
+                "content": "We use the information collected to:",
+                "list": {
+                    "item1": "Respond to inquiries and contact requests",
+                    "item2": "Communicate regarding our services",
+                    "item3": "Improve website functionality and performance",
+                    "item4": "Maintain website security"
+                },
+                "footer": "We do not sell, rent, or trade your personal information."
+            },
+            "3": {
+                "title": "3. Legal Basis for Processing (GDPR)",
+                "content": "If you are located in the European Economic Area (EEA), we process your personal data under the following legal bases:",
+                "list": {
+                    "item1": "Your consent (when submitting a form)",
+                    "item2": "Legitimate interest (responding to business inquiries and improving services)"
+                }
+            },
+            "4": {
+                "title": "4. Cookies and Analytics",
+                "content": "Our website may use essential cookies and basic analytics tools to understand website usage and improve performance.",
+                "content2": "Cookies may collect anonymous usage data such as:",
+                "list": {
+                    "item1": "Pages visited",
+                    "item2": "Time spent on pages",
+                    "item3": "General location (country-level only)"
+                },
+                "footer": "You may disable cookies in your browser settings at any time."
+            },
+            "5": {
+                "title": "5. Data Sharing",
+                "content": "We do not share your personal information with third parties except when required to:",
+                "list": {
+                    "item1": "operate the website (hosting, email services)",
+                    "item2": "comply with legal obligations"
+                },
+                "footer": "All service providers are required to handle data securely."
+            },
+            "6": {
+                "title": "6. Data Retention",
+                "content": "We retain personal information only for as long as necessary to:",
+                "list": {
+                    "item1": "respond to inquiries",
+                    "item2": "maintain business communication",
+                    "item3": "meet legal requirements"
+                },
+                "footer": "You may request deletion of your data at any time."
+            },
+            "7": {
+                "title": "7. Data Security",
+                "content": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, loss, or misuse.",
+                "content2": "However, no internet transmission is 100% secure."
+            },
+            "8": {
+                "title": "8. Your Rights",
+                "content": "Under GDPR, you have the right to:",
+                "list": {
+                    "item1": "Access your personal data",
+                    "item2": "Request correction of inaccurate data",
+                    "item3": "Request deletion of your data",
+                    "item4": "Restrict or object to processing",
+                    "item5": "Request data portability"
+                },
+                "footer": "To exercise these rights, contact us using the details below."
+            },
+            "9": {
+                "title": "9. Third-Party Links",
+                "content": "Our website may contain links to external websites. We are not responsible for the privacy practices of third-party sites."
+            },
+            "10": {
+                "title": "10. Contact Information",
+                "content": "If you have questions about this Privacy Policy or your personal data, you may contact us at:",
+                "company": "Binda Clinic Systems",
+                "email": "Email: hello@[yourdomain].com"
+            },
+            "11": {
+                "title": "11. Updates to This Policy",
+                "content": "We may update this Privacy Policy from time to time. The latest version will always be available on this page."
+            }
+        },
+        "agreement": "By using this website, you agree to this Privacy Policy."
+    }
+}

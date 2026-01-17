@@ -1,0 +1,173 @@
+{
+    "Navigation": {
+        "overview": "Overzicht",
+        "services": "Diensten",
+        "proof": "Bewijs",
+        "privacy": "Privacybeleid"
+    },
+    "Header": {
+        "title": "Binda",
+        "subtitle": "Systems",
+        "inquiries": "Aanvragen"
+    },
+    "Hero": {
+        "reliable": "betrouwbare online",
+        "appointmentSystems": "afsprakensystemen",
+        "forClinics": "voor moderne medische klinieken.",
+        "intro": "Ik help privéklinieken met het beheren van online boekingen, personeelsplanningen en meerdere locaties met behulp van stabiele, schaalbare systemen die zijn ontworpen voor echte klinische workflows.",
+        "scroll": "(Scroll ↓)"
+    },
+    "Mission": {
+        "tagline": "Vergeet het gemiddelde, omarm het gedurfde.",
+        "headline": "Van patiëntboeking tot personeelsplanning, alles is ontworpen om administratief werk te verminderen en afspraakfouten te voorkomen.",
+        "cta": "Start uw project vandaag nog met ons"
+    },
+    "Services": {
+        "s1_title": "Website & Boekingsonderhoud",
+        "s1_desc": "Doorlopend onderhoud en monitoring van uw kliniekwebsite en boekingssysteem om stabiliteit, veiligheid en uptime te garanderen.",
+        "s1_list": {
+            "item1": "WordPress onderhoud",
+            "item2": "Ondersteuning voor boekingsplugins",
+            "item3": "Beveiliging & back-ups",
+            "item4": "Kleine inhoudelijke updates",
+            "item5": "Monitoring & oplossingen"
+        },
+        "s2_title": "Aangepaste Boekingssystemen",
+        "s2_desc": "Aangepaste afsprakensystemen gebouwd voor klinieken die werken met meerdere diensten, personeelsleden of locaties.",
+        "s2_list": {
+            "item1": "Planning voor meerdere locaties",
+            "item2": "Beschikbaarheidsregels voor personeel",
+            "item3": "Aangepaste afspraaklogica",
+            "item4": "Beheerdersdashboards",
+            "item5": "Betaling & e-mailautomatisering"
+        },
+        "s3_title": "Systeemoptimalisatie & Schaling",
+        "s3_desc": "Verbeter prestaties, betrouwbaarheid en workflows naarmate uw kliniek groeit.",
+        "s3_list": {
+            "item1": "Optimalisatie van de boekingsflow",
+            "item2": "Rapportage & analyse",
+            "item3": "Prestatieverbeteringen",
+            "item4": "Herstructurering van het systeem"
+        }
+    },
+    "Proof": {
+        "label": "[ BEWIJS ]",
+        "text": "Ondersteunt momenteel een prenatale screeningskliniek met meerdere locaties met online afsprakenboeking en personeelsplanning op vier locaties."
+    },
+    "WhyThisWorks": {
+        "label": "[ WAAROM DIT WERKT ]",
+        "list": {
+            "item1": "Specifiek gebouwd voor medische klinieken",
+            "item2": "Ervaring met echte boekingsworkflows",
+            "item3": "Duidelijke scheiding tussen onderhoud en ontwikkeling",
+            "item4": "Directe communicatie met de ontwikkelaar",
+            "item5": "Kosteneffectief alternatief voor bureaus"
+        }
+    },
+    "CTA": {
+        "title": "Laten we uw\nboekingsopzet bespreken.",
+        "subtitle": "Gesprek van 30 minuten. Geen verplichting.",
+        "button": "Consult inplannen"
+    },
+    "Privacy": {
+        "title": "Privacybeleid",
+        "lastUpdated": "Laatst bijgewerkt: [Datum invoegen]",
+        "backToHome": "Terug naar Home",
+        "intro": "Binda Systems (“wij”, “onze” of “ons”) zet zich in voor de bescherming van uw privacy. Dit Privacybeleid legt uit hoe wij uw persoonlijke gegevens verzamelen, gebruiken en beschermen wanneer u onze website bezoekt of contact met ons opneemt.",
+        "sections": {
+            "1": {
+                "title": "1. Informatie die we verzamelen",
+                "content": "We kunnen de volgende informatie verzamelen:",
+                "list": {
+                    "item1": "Naam",
+                    "item2": "E-mailadres",
+                    "item3": "Bedrijfs- of klinieknaam",
+                    "item4": "Inhoud van berichten verzonden via contactformulieren",
+                    "item5": "Technische informatie zoals browsertype, apparaat en IP-adres"
+                },
+                "footer": "We verzamelen of bewaren <bold>geen</bold> medische patiëntgegevens via deze website."
+            },
+            "2": {
+                "title": "2. Hoe we uw informatie gebruiken",
+                "content": "We gebruiken de verzamelde informatie om:",
+                "list": {
+                    "item1": "Te reageren op vragen en contactverzoeken",
+                    "item2": "Te communiceren over onze diensten",
+                    "item3": "De functionaliteit en prestaties van de website te verbeteren",
+                    "item4": "Websitebeveiliging te handhaven"
+                },
+                "footer": "Wij verkopen, verhuren of verhandelen uw persoonlijke informatie niet."
+            },
+            "3": {
+                "title": "3. Rechtsgrondslag voor verwerking (AVG)",
+                "content": "Als u zich in de Europese Economische Ruimte (EER) bevindt, verwerken wij uw persoonsgegevens op basis van de volgende rechtsgronden:",
+                "list": {
+                    "item1": "Uw toestemming (bij het indienen van een formulier)",
+                    "item2": "Gerechtvaardigd belang (reageren op zakelijke vragen en verbeteren van diensten)"
+                }
+            },
+            "4": {
+                "title": "4. Cookies en Analytics",
+                "content": "Onze website kan essentiële cookies en basisanalysetools gebruiken om websitegebruik te begrijpen en prestaties te verbeteren.",
+                "content2": "Cookies kunnen anonieme gebruiksgegevens verzamelen zoals:",
+                "list": {
+                    "item1": "Bezochte pagina's",
+                    "item2": "Tijd doorgebracht op pagina's",
+                    "item3": "Algemene locatie (alleen op landniveau)"
+                },
+                "footer": "U kunt cookies op elk moment uitschakelen in uw browserinstellingen."
+            },
+            "5": {
+                "title": "5. Gegevensdeling",
+                "content": "Wij delen uw persoonlijke informatie niet met derden, behalve wanneer dit nodig is om:",
+                "list": {
+                    "item1": "de website te exploiteren (hosting, e-maildiensten)",
+                    "item2": "te voldoen aan wettelijke verplichtingen"
+                },
+                "footer": "Alle dienstverleners zijn verplicht om gegevens veilig te verwerken."
+            },
+            "6": {
+                "title": "6. Gegevensbewaring",
+                "content": "Wij bewaren persoonlijke informatie alleen zo lang als nodig is om:",
+                "list": {
+                    "item1": "te reageren op vragen",
+                    "item2": "zakelijke communicatie te onderhouden",
+                    "item3": "te voldoen aan wettelijke vereisten"
+                },
+                "footer": "U kunt op elk moment verzoeken om verwijdering van uw gegevens."
+            },
+            "7": {
+                "title": "7. Gegevensbeveiliging",
+                "content": "Wij implementeren passende technische en organisatorische maatregelen om uw persoonsgegevens te beschermen tegen ongeoorloofde toegang, verlies of misbruik.",
+                "content2": "Echter, geen enkele gegevensoverdracht via internet is 100% veilig."
+            },
+            "8": {
+                "title": "8. Uw rechten",
+                "content": "Onder de AVG heeft u het recht om:",
+                "list": {
+                    "item1": "Inzage te krijgen in uw persoonsgegevens",
+                    "item2": "Correctie van onjuiste gegevens te vragen",
+                    "item3": "Verwijdering van uw gegevens te vragen",
+                    "item4": "Verwerking te beperken of bezwaar te maken",
+                    "item5": "Gegevensovergdraagbaarheid aan te vragen"
+                },
+                "footer": "Neem contact met ons op via onderstaande gegevens om deze rechten uit te oefenen."
+            },
+            "9": {
+                "title": "9. Links van derden",
+                "content": "Onze website kan links bevatten naar externe websites. Wij zijn niet verantwoordelijk voor het privacybeleid van sites van derden."
+            },
+            "10": {
+                "title": "10. Contactinformatie",
+                "content": "Als u vragen heeft over dit Privacybeleid of uw persoonsgegevens, kunt u contact met ons opnemen via:",
+                "company": "Binda Clinic Systems",
+                "email": "E-mail: hello@[yourdomain].com"
+            },
+            "11": {
+                "title": "11. Updates van dit beleid",
+                "content": "Wij kunnen dit Privacybeleid van tijd tot tijd bijwerken. De laatste versie zal altijd op deze pagina beschikbaar zijn."
+            }
+        },
+        "agreement": "Door deze website te gebruiken, gaat u akkoord met dit Privacybeleid."
+    }
+}
