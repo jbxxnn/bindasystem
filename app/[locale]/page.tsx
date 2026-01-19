@@ -14,8 +14,11 @@ export default function Home() {
     <div className="min-h-screen max-w-7xl mx-auto font-sans">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-6 md:px-12 bg-transparent mix-blend-difference text-white pointer-events-none">
-        <div className="pointer-events-auto flex items-center gap-0">
-          <div className=""></div>
+        <div className="pointer-events-auto flex items-center gap-1">
+          <div className="" style={{ width: '50px', height: '17px', backgroundColor: 'white' }}></div>
+          <div className="flex items-center justify-center" style={{ width: '27px', height: '17px', backgroundColor: 'white' }}>
+            <div className="" style={{ width: '25px', height: '15px', borderRadius: '50%', backgroundColor: 'black', rotate: '15deg', transformOrigin: 'center' }}></div>
+          </div>
           <MobileNav />
         </div>
 
