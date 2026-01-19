@@ -8,19 +8,19 @@
     "Header": {
         "title": "Binda",
         "subtitle": "Systems",
-        "inquiries": "Inquiries"
+        "inquiries": "request a demo"
     },
     "Hero": {
-        "reliable": "reliable online",
-        "appointmentSystems": "appointment systems",
-        "forClinics": "for modern medical clinics.",
-        "intro": "I help private clinics manage online bookings, staff schedules, and multiple locations using stable, scalable systems designed for real clinical workflows.",
+        "reliable": "clinic-ready booking &",
+        "appointmentSystems": "operations systems",
+        "forClinics": "for multi-location medical practices",
+        "intro": "helping prenatal, ultrasound, and fertility clinics reduce admin work, prevent booking errors, and manage staff availability across multiple locations — without forcing medical workflows into generic software.",
         "scroll": "(Scroll ↓)"
     },
     "Mission": {
-        "tagline": "Erase the average, embrace the bold.",
-        "headline": "From patient booking to staff scheduling, everything is designed to reduce admin work and avoid appointment errors.",
-        "cta": "Start your project with us today"
+        "tagline": "Built from real clinic operations — not theory",
+        "headline": "for over 6 years, I’ve been responsible for the technical operations of a multi-location prenatal screening clinic in the Netherlands.\n\nWhen existing booking plugins failed to handle staff availability, locations, and medical service logic, I designed a custom system that fits how clinics actually work.",
+        "cta": "request a demo"
     },
     "Services": {
         "s1_title": "Website & Booking Maintenance",
@@ -54,20 +54,31 @@
         "label": "[ PROOF ]",
         "text": "Currently supporting a multi-location prenatal screening clinic with online appointment booking and staff scheduling across four locations."
     },
-    "WhyThisWorks": {
-        "label": "[ WHY THIS WORKS ]",
+    "Problem": {
+        "title": "The problem with most clinic booking systems",
         "list": {
-            "item1": "Built specifically for medical clinics",
-            "item2": "Experience with real booking workflows",
-            "item3": "Clear separation between maintenance and development",
-            "item4": "Direct communication with the developer",
-            "item5": "Cost-effective alternative to agencies"
+            "item1": "Booking tools don’t understand staff qualifications",
+            "item2": "Multi-location availability is hard to manage",
+            "item3": "Small changes require technical help",
+            "item4": "Admin teams rely on manual fixes",
+            "item5": "Mistakes lead to cancellations, confusion, and stress"
+        }
+    },
+    "WhoThisIsFor": {
+        "label": "Who this is for",
+        "headline": "Not designed for hospitals or single-provider practices.",
+        "list": {
+            "item1": "Prenatal screening centers",
+            "item2": "Ultrasound & fertility clinics",
+            "item3": "Medical practices with 2+ locations",
+            "item4": "Clinics with staff-based services"
         }
     },
     "CTA": {
-        "title": "Let’s discuss your\nbooking setup.",
-        "subtitle": "30-minute call. No obligation.",
-        "button": "Schedule consultation"
+        "title": "See if this fits your clinic",
+        "subtitle": "If managing locations, staff, and bookings is becoming harder as your clinic grows, let’s talk.",
+        "note": "* No sales pressure. Just a short conversation.",
+        "button": "Request a demo"
     },
     "Privacy": {
         "title": "Privacy Policy",

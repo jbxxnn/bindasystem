@@ -8,19 +8,19 @@
     "Header": {
         "title": "Binda",
         "subtitle": "Systems",
-        "inquiries": "Aanvragen"
+        "inquiries": "vraag een demo aan"
     },
     "Hero": {
-        "reliable": "betrouwbare online",
-        "appointmentSystems": "afsprakensystemen",
-        "forClinics": "voor moderne medische klinieken.",
-        "intro": "Ik help privéklinieken met het beheren van online boekingen, personeelsplanningen en meerdere locaties met behulp van stabiele, schaalbare systemen die zijn ontworpen voor echte klinische workflows.",
+        "reliable": "kliniek-klaar reserverings- &",
+        "appointmentSystems": "operationele systemen",
+        "forClinics": "voor medische praktijken met meerdere locaties",
+        "intro": "wij helpen prenatale, echografie- en vruchtbaarheidsklinieken administratief werk te verminderen, boekingsfouten te voorkomen en personeelsbeschikbaarheid over meerdere locaties te beheren — zonder medische workflows in generieke software te dwingen.",
         "scroll": "(Scroll ↓)"
     },
     "Mission": {
-        "tagline": "Vergeet het gemiddelde, omarm het gedurfde.",
-        "headline": "Van patiëntboeking tot personeelsplanning, alles is ontworpen om administratief werk te verminderen en afspraakfouten te voorkomen.",
-        "cta": "Start uw project vandaag nog met ons"
+        "tagline": "Gebouwd vanuit echte kliniekoperaties — geen theorie",
+        "headline": "al meer dan 6 jaar ben ik verantwoordelijk voor de technische operaties van een prenatale screeningskliniek met meerdere locaties in Nederland.\n\nToen bestaande boekingsplugins faalden in het verwerken van personeelsbeschikbaarheid, locaties en medische servicelogica, ontwierp ik een aangepast systeem dat past bij hoe klinieken werkelijk werken.",
+        "cta": "vraag een demo aan"
     },
     "Services": {
         "s1_title": "Website & Boekingsonderhoud",
@@ -54,20 +54,31 @@
         "label": "[ BEWIJS ]",
         "text": "Ondersteunt momenteel een prenatale screeningskliniek met meerdere locaties met online afsprakenboeking en personeelsplanning op vier locaties."
     },
-    "WhyThisWorks": {
-        "label": "[ WAAROM DIT WERKT ]",
+    "Problem": {
+        "title": "Het probleem met de meeste kliniekboekingssystemen",
         "list": {
-            "item1": "Specifiek gebouwd voor medische klinieken",
-            "item2": "Ervaring met echte boekingsworkflows",
-            "item3": "Duidelijke scheiding tussen onderhoud en ontwikkeling",
-            "item4": "Directe communicatie met de ontwikkelaar",
-            "item5": "Kosteneffectief alternatief voor bureaus"
+            "item1": "Boekingstools begrijpen personeelskwalificaties niet",
+            "item2": "Beschikbaarheid op meerdere locaties is lastig te beheren",
+            "item3": "Kleine wijzigingen vereisen technische hulp",
+            "item4": "Administratieteams vertrouwen op handmatige correcties",
+            "item5": "Fouten leiden tot annuleringen, verwarring en stress"
+        }
+    },
+    "WhoThisIsFor": {
+        "label": "Voor wie is dit",
+        "headline": "Niet ontworpen voor ziekenhuizen of praktijken met één zorgverlener.",
+        "list": {
+            "item1": "Prenatale screeningscentra",
+            "item2": "Echografie- en vruchtbaarheidsklinieken",
+            "item3": "Medische praktijken met 2+ locaties",
+            "item4": "Klinieken met personeelsgebonden diensten"
         }
     },
     "CTA": {
-        "title": "Laten we uw\nboekingsopzet bespreken.",
-        "subtitle": "Gesprek van 30 minuten. Geen verplichting.",
-        "button": "Consult inplannen"
+        "title": "Kijk of dit bij uw kliniek past",
+        "subtitle": "Als het beheren van locaties, personeel en boekingen lastiger wordt naarmate uw kliniek groeit, laten we dan praten.",
+        "note": "* Geen verkoopdruk. Gewoon een kort gesprek.",
+        "button": "Vraag een demo aan"
     },
     "Privacy": {
         "title": "Privacybeleid",

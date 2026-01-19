@@ -21,7 +21,7 @@ export default function LanguageSwitcher() {
         <button
             onClick={toggleLanguage}
             disabled={isPending}
-            className="text-xs font-medium uppercase tracking-wide px-2 py-1 border border-white/20 rounded-full hover:bg-white/10 transition-colors"
+            className="text-xs font-medium uppercase tracking-wide px-2 py-2 border border-white/20 rounded-full hover:bg-white/10 transition-colors"
             title={locale === 'nl' ? 'Switch to English' : 'Overschakelen naar Nederlands'}
         >
             {locale === 'nl' ? 'EN' : 'NL'}
