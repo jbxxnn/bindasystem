@@ -238,7 +238,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-8">
               <LanguageSwitcher />
-              <nav className="hidden md:flex items-center gap-8 text-xs font-medium tracking-wide uppercase pointer-events-auto">
+              <nav className="flex items-center gap-8 text-xs font-medium tracking-wide uppercase pointer-events-auto">
                 <Link href="/privacy" className="hover:opacity-70 flex transition-opacity">
                   <LetterSwapForward
                     label={t('Navigation.privacy')}
