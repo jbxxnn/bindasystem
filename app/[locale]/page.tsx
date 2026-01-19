@@ -19,7 +19,7 @@ export default function Home() {
           <div className="flex items-center justify-center" style={{ width: '27px', height: '17px', backgroundColor: 'white' }}>
             <div className="" style={{ width: '25px', height: '15px', borderRadius: '50%', backgroundColor: 'black', rotate: '15deg', transformOrigin: 'center' }}></div>
           </div>
-          <MobileNav />
+          {/* <MobileNav /> */}
         </div>
 
         <nav className="hidden md:flex items-center gap-8 text-xs font-medium tracking-wide uppercase pointer-events-auto mix-blend-difference">
@@ -65,11 +65,11 @@ export default function Home() {
                     className="object-cover opacity-100"
                   />
                 </div> */}
-                <span className="block text-4xl md:text-6xl lg:text-[5rem] leading-[0.9] tracking-tight font-medium text-[#111]">{t('Hero.reliable')}
+                <span className="block text-3xl md:text-6xl lg:text-[5rem] leading-[0.9] tracking-tight font-medium text-[#111]">{t('Hero.reliable')}
                 </span>
               </div>
 
-              <h1 className="text-4xl md:text-6xl lg:text-[5rem] leading-[0.9] tracking-tight font-medium text-[#111]">
+              <h1 className="text-3xl md:text-6xl lg:text-[5rem] leading-[0.9] tracking-tight font-medium text-[#111]">
 
                 <div className="flex items-start flex-wrap gap-x-4">
                   <span className="block">{t('Hero.appointmentSystems')}</span>
