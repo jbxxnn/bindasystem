@@ -15,26 +15,14 @@ export default function Home() {
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-6 md:px-12 bg-transparent mix-blend-difference text-white pointer-events-none">
         <div className="pointer-events-auto flex items-center gap-1">
-          <div className="" style={{ width: '50px', height: '17px', backgroundColor: 'white' }}></div>
-          <div className="flex items-center justify-center" style={{ width: '27px', height: '17px', backgroundColor: 'white' }}>
+          <div className="flex items-center justify-center" style={{ backgroundColor: 'white', borderRadius: '0.2rem', padding: '2px' }}>
             <div className="" style={{ width: '25px', height: '15px', borderRadius: '50%', backgroundColor: 'black', rotate: '15deg', transformOrigin: 'center' }}></div>
           </div>
           {/* <MobileNav /> */}
         </div>
 
-        <nav className="hidden md:flex items-center gap-8 text-xs font-medium tracking-wide uppercase pointer-events-auto mix-blend-difference">
-          <Link href="/privacy" className="hover:opacity-70 flex transition-opacity">
-            <span className="opacity-50 mr-1">01</span>
-            <LetterSwapForward
-              label={t('Navigation.privacy')}
-              reverse={true}
-              className="italic"
-            />
-          </Link>
-        </nav>
-
         <div className="pointer-events-auto mix-blend-difference gap-8 flex items-center">
-          <LanguageSwitcher />
+          {/* <LanguageSwitcher /> */}
           <Link
             href="#"
             className="text-xs font-medium uppercase tracking-wide pb-0.5 hover:opacity-70 transition-opacity"
@@ -74,7 +62,7 @@ export default function Home() {
                 <div className="flex items-start flex-wrap gap-x-4">
                   <span className="block">{t('Hero.appointmentSystems')}</span>
                 </div>
-                <span className="block text-gray-300 text-3xl md:text-5xl lg:text-[4rem] leading-[0.9] tracking-tight font-medium">
+                <span className="block text-gray-300 text-2xl md:text-5xl lg:text-[4rem] leading-[0.9] tracking-tight font-medium">
                   {t('Hero.forClinics')}
                 </span>
               </h1>
@@ -100,7 +88,7 @@ export default function Home() {
             <span className="text-xs text-gray-500 uppercase tracking-wide">• {t('Mission.tagline')}</span>
           </div>
 
-          <div className="flex flex-col justify-between items-end">
+          <div className="flex flex-col justify-between items-end gap-8">
             <h2 className="text-3xl md:text-5xl leading-[1.1] tracking-tight text-[#111] whitespace-pre-line">
               {t('Mission.headline')}
             </h2>
@@ -118,7 +106,7 @@ export default function Home() {
         {/* Why This Works Section */}
         <section className="px-6 md:px-12 py-20 bg-[#f4f4f4]">
           <div className="border-t border-gray-300 w-full mb-8"></div>
-          <div className="flex flex-col md:flex-row justify-between items-start gap-2">
+          <div className="flex flex-col md:flex-row justify-between items-start gap-8">
             <div className="md:w-1/2">
               <span className="text-4xl font-medium tracking-tight">{t('Problem.title')}</span>
             </div>
@@ -214,7 +202,7 @@ export default function Home() {
         {/* Why This Works Section */}
         <section className="px-6 md:px-12 py-20 bg-[#f4f4f4]">
           <div className="border-t border-gray-300 w-full mb-8"></div>
-          <div className="flex flex-col md:flex-row justify-between items-start gap-2">
+          <div className="flex flex-col md:flex-row justify-between items-start gap-8">
             <div className="md:w-2/4 max-w-md">
               <p className="text-xs text-gray-500 uppercase tracking-wide">{t('WhoThisIsFor.label')}</p>
               <h2 className="text-4xl font-medium tracking-tight">{t('WhoThisIsFor.headline')}</h2>
@@ -247,6 +235,18 @@ export default function Home() {
                 />
               </Link>
 
+            </div>
+            <div className="flex items-center gap-8">
+              <LanguageSwitcher />
+              <nav className="hidden md:flex items-center gap-8 text-xs font-medium tracking-wide uppercase pointer-events-auto">
+                <Link href="/privacy" className="hover:opacity-70 flex transition-opacity">
+                  <LetterSwapForward
+                    label={t('Navigation.privacy')}
+                    reverse={true}
+                    className="italic"
+                  />
+                </Link>
+              </nav>
             </div>
           </div>
         </section>
