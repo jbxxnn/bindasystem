@@ -43,16 +43,16 @@ export default function Home() {
       {/* Main Content */}
       <main>
         {/* Hero Section */}
-        <section className="pt-40 pb-20 px-6 md:px-12 min-h-screen flex flex-col justify-between gap-8" id="overview">
-          <div className="h-[4rem] w-full" style={{ height: '4rem' }}> </div>
+        <section className="pt-40 pb-20 px-6 md:px-12 min-h-screen flex flex-col justify-between gap-2 md:gap-8" id="overview">
+          <div className="h-[4rem] hidden md:block w-full" style={{ height: '4rem' }}> </div>
           <div className="">
             {/* Mobile Image placement */}
             <div className="flex items-end">
-              <span className="block text-3xl md:text-6xl lg:text-[5rem] leading-[0.9] tracking-tight font-medium text-[#111]">{t('Hero.reliable')}
+              <span className="block text-4xl md:text-6xl lg:text-[5rem] leading-[0.9] tracking-tight font-medium text-[#111]">{t('Hero.reliable')}
               </span>
             </div>
 
-            <h1 className="text-3xl md:text-6xl lg:text-[5rem] leading-[0.9] tracking-tight font-medium text-[#111]">
+            <h1 className="text-4xl md:text-6xl lg:text-[5rem] leading-[0.9] tracking-tight font-medium text-[#111]">
 
               <div className="flex items-start flex-wrap gap-x-4">
                 <span className="block">{t('Hero.appointmentSystems')}</span>
@@ -62,10 +62,10 @@ export default function Home() {
               </span>
             </h1>
           </div>
-          <div className="h-[4rem] w-full" style={{ height: '8rem' }}> </div>
+          <div className="hidden md:block w-full" style={{ height: '8rem' }}> </div>
 
 
-          <div className="w-full flex-1 relative min-h-[600px] my-8 rounded-sm overflow-hidden">
+          <div className="w-full flex-1 relative min-h-[300px] md:min-h-[600px] my-8 rounded-sm overflow-hidden">
             <HeroSlider
               className="absolute inset-0"
               images={[
