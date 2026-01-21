@@ -267,7 +267,7 @@ export default function Home() {
 
             </div>
           </div>
-          <div className="flex items-center justify-end w-full gap-8">
+          <div className="flex items-center justify-start md:justify-end w-full gap-8">
             <LanguageSwitcher />
             <nav className="flex items-center gap-8 text-xs font-medium tracking-wide uppercase pointer-events-auto">
               <Link href="/privacy" className="hover:opacity-70 flex transition-opacity">
