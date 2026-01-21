@@ -6,6 +6,7 @@ import VariableFontHoverByLetter from "@/components/fancy/text/variable-font-hov
 
 import LanguageSwitcher from "@/components/language-switcher";
 import MobileNav from "@/components/mobile-nav";
+import HeroSlider from "@/components/hero-slider";
 
 export default function Home() {
   const t = useTranslations();
@@ -25,7 +26,8 @@ export default function Home() {
           {/* <LanguageSwitcher /> */}
           <Link
             href="#"
-            className="text-xs font-medium uppercase tracking-wide pb-0.5 hover:opacity-70 transition-opacity"
+            className="text-xs bg-white text-black p-2 px-4 font-medium uppercase tracking-wide hover:opacity-70 transition-opacity"
+            style={{ padding: '2px', paddingLeft: '8px', paddingRight: '8px', borderRadius: '0.2rem' }}
           >
             <VariableFontHoverByLetter
               label={`${t('Header.inquiries')} \u2192`}
@@ -40,44 +42,49 @@ export default function Home() {
       {/* Main Content */}
       <main>
         {/* Hero Section */}
-        <section className="pt-40 pb-20 px-6 md:px-12 min-h-screen flex flex-col justify-between" id="overview">
+        <section className="pt-40 pb-20 px-6 md:px-12 min-h-screen flex flex-col justify-between gap-8" id="overview">
+          <div className="h-[4rem] w-full" style={{ height: '4rem' }}> </div>
           <div className="">
-            <div className="">
-              {/* Mobile Image placement */}
-              <div className="flex items-end">
-                {/* <div className="block w-24 md:w-32 lg:w-40 aspect-[3/4] rounded-sm overflow-hidden bg-gray-200 -z-10 translate-y-1 md:translate-y-2 mr-4 md:mr-0">
-                  <Image
-                    src="/images/hero-inset.png"
-                    alt="Modern architecture"
-                    fill
-                    className="object-cover opacity-100"
-                  />
-                </div> */}
-                <span className="block text-3xl md:text-6xl lg:text-[5rem] leading-[0.9] tracking-tight font-medium text-[#111]">{t('Hero.reliable')}
-                </span>
-              </div>
-
-              <h1 className="text-3xl md:text-6xl lg:text-[5rem] leading-[0.9] tracking-tight font-medium text-[#111]">
-
-                <div className="flex items-start flex-wrap gap-x-4">
-                  <span className="block">{t('Hero.appointmentSystems')}</span>
-                </div>
-                <span className="block text-gray-300 text-2xl md:text-5xl lg:text-[4rem] leading-[0.9] tracking-tight font-medium">
-                  {t('Hero.forClinics')}
-                </span>
-              </h1>
+            {/* Mobile Image placement */}
+            <div className="flex items-end">
+              <span className="block text-3xl md:text-6xl lg:text-[5rem] leading-[0.9] tracking-tight font-medium text-[#111]">{t('Hero.reliable')}
+              </span>
             </div>
-          </div>
 
-          <div className="h-[10rem] w-full"></div>
+            <h1 className="text-3xl md:text-6xl lg:text-[5rem] leading-[0.9] tracking-tight font-medium text-[#111]">
+
+              <div className="flex items-start flex-wrap gap-x-4">
+                <span className="block">{t('Hero.appointmentSystems')}</span>
+              </div>
+              <span className="block text-gray-300 text-2xl md:text-5xl lg:text-[4rem] leading-[0.9] tracking-tight font-medium">
+                {t('Hero.forClinics')}
+              </span>
+            </h1>
+          </div>
+          <div className="h-[4rem] w-full" style={{ height: '8rem' }}> </div>
+
+
+          <div className="w-full flex-1 relative min-h-[600px] my-8 rounded-sm overflow-hidden">
+            <HeroSlider
+              className="absolute inset-0"
+              images={[
+                "/images/image.png",
+                "/images/image copy.png",
+                "/images/image copy 2.png",
+                "/images/image copy 3.png",
+                "/images/image copy 4.png",
+                "/images/image copy 5.png",
+                "/images/image copy 6.png",
+                "/images/image copy 7.png",
+                "/images/image copy 8.png"
+              ]}
+            />
+          </div>
 
           <div className="flex flex-col md:flex-row justify-between items-end mt-20 md:mt-0">
             <p className="max-w-md text-sm md:text-lg leading-relaxed text-[#111]" style={{ maxWidth: '700px' }}>
               {t('Hero.intro')}
             </p>
-            <span className="text-xs uppercase tracking-wide mt-8 md:mt-0">
-              {t('Hero.scroll')}
-            </span>
           </div>
         </section>
 
@@ -92,7 +99,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-5xl leading-[1.1] tracking-tight text-[#111] whitespace-pre-line">
               {t('Mission.headline')}
             </h2>
-            <Link href="#" className="text-lg uppercase tracking-wide pb-0.5 mt-8 md:mt-8 hover:opacity-70 transition-opacity">
+            <Link href="#" className="text-lg uppercase bg-[#111] text-white tracking-wide pb-0.5 mt-8 md:mt-8 hover:opacity-70 transition-opacity" style={{ padding: '2px', paddingLeft: '8px', paddingRight: '8px', borderRadius: '0.2rem' }}>
               <VariableFontHoverByLetter
                 label={`${t('Mission.cta')} \u2192`}
                 fromFontVariationSettings="'wght' 400, 'slnt' 0"
@@ -225,8 +232,8 @@ export default function Home() {
               {t('CTA.title')}
             </h2>
             <div className="flex flex-col items-baseline gap-2 mt-8">
-              <div className="text-sm md:text-base text-gray-600">{t('CTA.subtitle')} <span className="text-xs text-gray-600">{t('CTA.note')}</span></div>
-              <Link href="#" className="text-base md:text-lg uppercase tracking-wide pb-0.5 hover:opacity-70 transition-opacity">
+              <div className="text-sm md:text-base text-gray-600">{t('CTA.subtitle')}</div>
+              <Link href="#" className="text-base md:text-lg uppercase bg-[#111] text-white tracking-wide pb-0.5 hover:opacity-70 transition-opacity" style={{ padding: '2px', paddingLeft: '8px', paddingRight: '8px', borderRadius: '0.2rem' }}>
                 <VariableFontHoverByLetter
                   label={`${t('CTA.button')} \u2192`}
                   fromFontVariationSettings="'wght' 400, 'slnt' 0"
@@ -236,18 +243,18 @@ export default function Home() {
               </Link>
 
             </div>
-            <div className="flex items-center gap-8">
-              <LanguageSwitcher />
-              <nav className="flex items-center gap-8 text-xs font-medium tracking-wide uppercase pointer-events-auto">
-                <Link href="/privacy" className="hover:opacity-70 flex transition-opacity">
-                  <LetterSwapForward
-                    label={t('Navigation.privacy')}
-                    reverse={true}
-                    className="italic"
-                  />
-                </Link>
-              </nav>
-            </div>
+          </div>
+          <div className="flex items-center justify-end w-full gap-8">
+            <LanguageSwitcher />
+            <nav className="flex items-center gap-8 text-xs font-medium tracking-wide uppercase pointer-events-auto">
+              <Link href="/privacy" className="hover:opacity-70 flex transition-opacity">
+                <LetterSwapForward
+                  label={t('Navigation.privacy')}
+                  reverse={true}
+                  className="italic"
+                />
+              </Link>
+            </nav>
           </div>
         </section>
       </main>
