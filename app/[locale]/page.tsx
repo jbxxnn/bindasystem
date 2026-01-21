@@ -65,7 +65,7 @@ export default function Home() {
           <div className="hidden md:block w-full" style={{ height: '8rem' }}> </div>
 
 
-          <div className="w-full flex-1 relative min-h-[300px] md:min-h-[600px] my-8 rounded-sm overflow-hidden">
+          <div className="w-full flex-1 relative min-h-[200px] md:min-h-[600px] my-8 rounded-sm overflow-hidden">
             <HeroSlider
               className="absolute inset-0"
               images={[
