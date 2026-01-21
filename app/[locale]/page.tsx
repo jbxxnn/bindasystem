@@ -86,14 +86,14 @@ export default function Home() {
           </div> */}
 
 
-          <div className="flex justify-center gap-4">
-            <div className="w-full mb-8 p-8 rounded-sm bg-[#f4f4f4]">
+          <div className="flex flex-col md:flex-row justify-center gap-4 my-8">
+            <div className="w-full p-4 rounded-sm bg-[#f4f4f4]">
               <AvailabilityAnimation />
             </div>
-            <div className="w-full mb-8 p-8 rounded-sm bg-[#f4f4f4]">
+            <div className="w-full p-4 rounded-sm bg-[#f4f4f4]">
               <NoticeBufferAnimation />
             </div>
-            <div className="w-full mb-8 p-8 rounded-sm bg-[#f4f4f4]">
+            <div className="w-full p-4 rounded-sm bg-[#f4f4f4]">
               <CalendarOverlayAnimation />
             </div>
           </div>
