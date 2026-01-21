@@ -132,6 +132,10 @@ export default function Home() {
 
 
         <section className="px-6 md:px-12 py-20 bg-[#f4f4f4]" id="services">
+          <div className="border-t border-gray-300 w-full mb-8"></div>
+          <div className="flex flex-col md:flex-row justify-between items-start mb-12">
+            <span className="text-xs text-gray-500 uppercase tracking-wide">• {t('Navigation.services')}</span>
+          </div>
           <div className="flex flex-col md:flex-row justify-between items-start gap-8">
             <div className="flex flex-col gap-4 bg-gray-200 p-6">
               <div className="">
