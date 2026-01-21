@@ -105,7 +105,7 @@ export default function NoticeBufferAnimation() {
     }, []);
 
     return (
-        <div className="w-full max-w-sm mx-auto bg-white rounded-sm p-6">
+        <div className="w-full max-w-sm mx-auto bg-white rounded-sm border shadow-[10px_10px_0px_rgba(0,0,0,0.25)] p-6">
             <h3 className="text-xl font-bold text-black mb-6">Notice and buffers</h3>
 
             <div className="space-y-6">

@@ -54,7 +54,7 @@ export default function AvailabilityAnimation() {
     }, []);
 
     return (
-        <div className="w-full max-w-sm mx-auto bg-white rounded-sm p-6">
+        <div className="w-full max-w-sm mx-auto bg-white rounded-sm border shadow-[10px_10px_0px_rgba(0,0,0,0.25)] p-6">
             <div className="flex flex-col gap-4">
                 {schedule.map((item, index) => (
                     <div key={item.day} className="flex items-center gap-4">

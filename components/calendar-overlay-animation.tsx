@@ -17,7 +17,7 @@ export default function CalendarOverlayAnimation() {
     }, []);
 
     return (
-        <div className="w-full max-w-lg mx-auto bg-white rounded-sm overflow-hidden">
+        <div className="w-full max-w-lg mx-auto bg-white rounded-sm border shadow-[10px_10px_0px_rgba(0,0,0,0.25)] overflow-hidden">
             {/* Header */}
             <div className="flex items-center justify-between gap-6 px-6 py-4 border-b border-gray-100">
                 <div className="flex items-center gap-3 cursor-pointer" onClick={() => setShowOverlay(!showOverlay)}>

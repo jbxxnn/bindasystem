@@ -85,24 +85,26 @@ export default function Home() {
             />
           </div> */}
 
-
-          <div className="flex flex-col md:flex-row justify-center gap-4 my-8">
-            <div className="w-full p-4 rounded-sm bg-[#f4f4f4]">
-              <AvailabilityAnimation />
-            </div>
-            <div className="w-full p-4 rounded-sm bg-[#f4f4f4]">
-              <NoticeBufferAnimation />
-            </div>
-            <div className="w-full p-4 rounded-sm bg-[#f4f4f4]">
-              <CalendarOverlayAnimation />
-            </div>
-          </div>
-
-          <div className="flex flex-col md:flex-row justify-between items-end mt-20 md:mt-0">
+          <div className="flex flex-col md:flex-row justify-between items-end">
             <p className="max-w-md text-sm md:text-lg leading-relaxed text-[#111]" style={{ maxWidth: '700px' }}>
               {t('Hero.intro')}
             </p>
           </div>
+
+
+          <div className="flex flex-col md:flex-row justify-center gap-4  mt-20 md:mt-0">
+            <div className="w-full p-8 rounded-sm bg-[#f9f9f9]">
+              <AvailabilityAnimation />
+            </div>
+            <div className="w-full p-8 rounded-sm bg-[#f9f9f9]">
+              <NoticeBufferAnimation />
+            </div>
+            <div className="w-full p-8 rounded-sm bg-[#f9f9f9]">
+              <CalendarOverlayAnimation />
+            </div>
+          </div>
+
+
         </section>
 
         {/* Divider / Transition */}
