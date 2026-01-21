@@ -25,7 +25,8 @@ export default function Home() {
         <div className="pointer-events-auto mix-blend-difference gap-8 flex items-center">
           {/* <LanguageSwitcher /> */}
           <Link
-            href="#"
+            href="https://calendar.app.google/ZtqqjeoHUvQkqHrv9"
+            target="_blank"
             className="text-xs bg-white text-black p-2 px-4 font-medium uppercase tracking-wide hover:opacity-70 transition-opacity"
             style={{ padding: '2px', paddingLeft: '8px', paddingRight: '8px', borderRadius: '0.2rem' }}
           >
@@ -99,7 +100,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-5xl leading-[1.1] tracking-tight text-[#111] whitespace-pre-line">
               {t('Mission.headline')}
             </h2>
-            <Link href="#" className="text-lg uppercase bg-[#111] text-white tracking-wide pb-0.5 mt-8 md:mt-8 hover:opacity-70 transition-opacity" style={{ padding: '2px', paddingLeft: '8px', paddingRight: '8px', borderRadius: '0.2rem' }}>
+            <Link href="https://calendar.app.google/ZtqqjeoHUvQkqHrv9" target="_blank" className="text-lg uppercase bg-[#111] text-white tracking-wide pb-0.5 mt-8 md:mt-8 hover:opacity-70 transition-opacity" style={{ padding: '2px', paddingLeft: '8px', paddingRight: '8px', borderRadius: '0.2rem' }}>
               <VariableFontHoverByLetter
                 label={`${t('Mission.cta')} \u2192`}
                 fromFontVariationSettings="'wght' 400, 'slnt' 0"
@@ -233,7 +234,7 @@ export default function Home() {
             </h2>
             <div className="flex flex-col items-baseline gap-2 mt-8">
               <div className="text-sm md:text-base text-gray-600">{t('CTA.subtitle')}</div>
-              <Link href="#" className="text-base md:text-lg uppercase bg-[#111] text-white tracking-wide pb-0.5 hover:opacity-70 transition-opacity" style={{ padding: '2px', paddingLeft: '8px', paddingRight: '8px', borderRadius: '0.2rem' }}>
+              <Link href="https://calendar.app.google/ZtqqjeoHUvQkqHrv9" target="_blank" className="text-base md:text-lg uppercase bg-[#111] text-white tracking-wide pb-0.5 hover:opacity-70 transition-opacity" style={{ padding: '2px', paddingLeft: '8px', paddingRight: '8px', borderRadius: '0.2rem' }}>
                 <VariableFontHoverByLetter
                   label={`${t('CTA.button')} \u2192`}
                   fromFontVariationSettings="'wght' 400, 'slnt' 0"
