@@ -85,7 +85,7 @@ export default function Home() {
             />
           </div> */}
 
-          <div className="flex flex-col md:flex-row justify-between items-end">
+          <div className="flex flex-col md:flex-row justify-between items-endmt-20 md:mt-0">
             <p className="max-w-md text-sm md:text-lg leading-relaxed text-[#111]" style={{ maxWidth: '700px' }}>
               {t('Hero.intro')}
             </p>
