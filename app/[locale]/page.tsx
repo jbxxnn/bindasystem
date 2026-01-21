@@ -7,6 +7,9 @@ import VariableFontHoverByLetter from "@/components/fancy/text/variable-font-hov
 import LanguageSwitcher from "@/components/language-switcher";
 import MobileNav from "@/components/mobile-nav";
 import HeroSlider from "@/components/hero-slider";
+import AvailabilityAnimation from "@/components/availability-animation";
+import NoticeBufferAnimation from "@/components/notice-buffer-animation";
+import CalendarOverlayAnimation from "@/components/calendar-overlay-animation";
 
 export default function Home() {
   const t = useTranslations();
@@ -65,7 +68,7 @@ export default function Home() {
           <div className="hidden md:block w-full" style={{ height: '8rem' }}> </div>
 
 
-          <div className="w-full flex-1 relative min-h-[200px] md:min-h-[600px] my-8 rounded-sm overflow-hidden">
+          {/* <div className="w-full flex-1 relative min-h-[200px] md:min-h-[600px] my-8 rounded-sm overflow-hidden">
             <HeroSlider
               className="absolute inset-0"
               images={[
@@ -80,6 +83,19 @@ export default function Home() {
                 "/images/image copy 8.png"
               ]}
             />
+          </div> */}
+
+
+          <div className="flex justify-center gap-4">
+            <div className="w-full mb-8 p-8 rounded-sm bg-[#f4f4f4]">
+              <AvailabilityAnimation />
+            </div>
+            <div className="w-full mb-8 p-8 rounded-sm bg-[#f4f4f4]">
+              <NoticeBufferAnimation />
+            </div>
+            <div className="w-full mb-8 p-8 rounded-sm bg-[#f4f4f4]">
+              <CalendarOverlayAnimation />
+            </div>
           </div>
 
           <div className="flex flex-col md:flex-row justify-between items-end mt-20 md:mt-0">
@@ -91,7 +107,7 @@ export default function Home() {
 
         {/* Divider / Transition */}
         <section className="px-6 md:px-12 py-20 bg-[#f4f4f4]">
-          <div className="border-t border-gray-300 w-full mb-8"></div>
+
           <div className="flex flex-col md:flex-row justify-between items-start mb-12">
             <span className="text-xs text-gray-500 uppercase tracking-wide">• {t('Mission.tagline')}</span>
           </div>
@@ -132,7 +148,7 @@ export default function Home() {
 
 
         <section className="px-6 md:px-12 py-20 bg-[#f4f4f4]" id="services">
-          <div className="border-t border-gray-300 w-full mb-8"></div>
+
           <div className="flex flex-col md:flex-row justify-between items-start mb-12">
             <span className="text-xs text-gray-500 uppercase tracking-wide">• {t('Navigation.services')}</span>
           </div>
